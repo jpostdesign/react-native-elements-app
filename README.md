@@ -23,6 +23,10 @@ yarn
   - Then create a new account on the Expo Desktop client that you just installed. Follow [this](https://docs.expo.io/versions/v16.0.0/guides/up-and-running.html#create-an-account) if you need help.
   - Finally click `Project` -> `New Project` and open the folder that you cloned in Step 1 above. Then run the app on simulator or your device.
 
+## Demo:
+
+![rne-app.gif](rne-app.gif)
+
 
 ## Versions:
 
@@ -32,7 +36,7 @@ yarn
 
 - ```"react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"```
 
-- ```"react-native-elements": "^0.11.1"```
+- ```"react-native-elements": "git://github.com/react-native-training/react-native-elements.git#next"```
 
 
 ## Docs
