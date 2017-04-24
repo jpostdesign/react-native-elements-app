@@ -21,6 +21,17 @@ yarn
 3. Open app with [Expo Desktop Client](https://docs.expo.io/versions/v16.0.0/index.html)
 
 
+## Versions:
+
+-  ```"expo": "16.0.0"```
+
+- ```"react": "16.0.0-alpha.6"```
+
+- ```"react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"```
+
+- ```"react-native-elements": "^0.11.1"```
+
+
 ## Docs
 
 Click [here](https://react-native-training.github.io/react-native-elements/API/buttons/) to view the docs for React Native Elements.
