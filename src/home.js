@@ -85,7 +85,7 @@ const list2 = [
   }
 ]
 
-class Buttons extends Component {
+class Home extends Component {
   constructor () {
     super()
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
@@ -506,4 +506,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Buttons;
+export default Home;

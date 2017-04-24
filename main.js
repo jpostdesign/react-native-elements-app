@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 
 import { List, ListItem, SideMenu, Button } from "react-native-elements";
 
-import Buttons from "./src/buttons";
+import Home from "./src/home";
 
 class MainRoot extends React.Component {
   constructor() {
@@ -92,7 +92,7 @@ class MainRoot extends React.Component {
         onChange={this.onSideMenuChange.bind(this)}
         menu={MenuComponent}
       >
-        <Buttons toggleSideMenu={this.toggleSideMenu.bind(this)} />
+        <Home toggleSideMenu={this.toggleSideMenu.bind(this)} />
       </SideMenu>
     );
   }
