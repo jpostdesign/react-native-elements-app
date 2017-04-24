@@ -1,23 +1,25 @@
-![React Native Elements App](http://i.imgur.com/kJA1dU0.png)
-### React Native Starter Project and UI Boilerplate using [React Native Elements](https://github.com/react-native-training/react-native-elements)
+### Showcase app for [React Native Elements](https://github.com/react-native-training/react-native-elements) UI components using Expo.
 
 ![React Native UI Toolkit](http://i.imgur.com/tqxDeoG.png)
 
 ## Get Started
 
-1 Clone the project
+1. Clone the project
 
 ```
 git clone https://github.com/react-native-training/react-native-elements-app
 ```
 
-2 Install dependencies
+2. Install dependencies
 
 ```
 yarn
 ```
 
-3 Run the project
+3. Open app with [Expo Desktop Client](https://docs.expo.io/versions/v16.0.0/index.html)
 
-The API for React Native Elements is located [here](https://react-native-training.github.io/react-native-elements/API/buttons/).
+
+## Docs
+
+Click [here](https://react-native-training.github.io/react-native-elements/API/buttons/) to view the docs for React Native Elements.
 
