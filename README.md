@@ -32,7 +32,7 @@ yarn
 
 - ```"react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"```
 
-- ```"react-native-elements": "^0.11.1"```
+- ```"react-native-elements": "^0.11.2"```
 
 
 ## Docs
