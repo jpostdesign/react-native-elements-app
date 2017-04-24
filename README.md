@@ -19,9 +19,9 @@ yarn
 ```
 
 3. Open app with [Expo Desktop Client](https://docs.expo.io/versions/v16.0.0/index.html)
-  - If you have never used Expo before, click [here(https://docs.expo.io/versions/v16.0.0/introduction/installation.html)] to install it.
+  - If you have never used Expo before, click [here](https://docs.expo.io/versions/v16.0.0/introduction/installation.html) to install it.
   - Then create a new account on the Expo Desktop client that you just installed. Follow [this](https://docs.expo.io/versions/v16.0.0/guides/up-and-running.html#create-an-account) if you need help.
-  - Finally click `Project` -> `New Project` and open the folder that you cloned in Step 1 above.
+  - Finally click `Project` -> `New Project` and open the folder that you cloned in Step 1 above. Then run the app on simulator or your device.
 
 
 ## Versions:
