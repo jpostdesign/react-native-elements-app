@@ -28,7 +28,7 @@ const ButtonsTab = StackNavigator({
   },
   Button_Detail: {
     screen: ButtonsDetailTabView,
-    path: '/people/:name',
+    path: '/buttons_detail',
     navigationOptions: {
       title: 'Buttons Detail',
     },

@@ -31,10 +31,10 @@ const IconsTab = StackNavigator({
   },
   Detail: {
     screen: IconsDetailTabView,
+    path: 'icons_detail',
     navigationOptions: {
       title: 'Icons Detail',
     },
-    path: '/people/:name'
   },
 });
 

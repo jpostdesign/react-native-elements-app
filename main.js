@@ -1,46 +1,27 @@
 import Expo from 'expo';
 import React from 'react';
-import { TabNavigator } from 'react-navigation';
+import { DrawerNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import ButtonsTab from './src/tabs/buttons'
-import IconsTab from './src/tabs/icons'
+import Home from './src/drawer/home'
+import AboutUs from './src/drawer/about_us'
 
-const MainRoot = TabNavigator({
-  ButtonsTab: {
-    screen: ButtonsTab,
-    path: '/',
-    navigationOptions: {
-      tabBarLabel: 'Buttons',
-      tabBarIcon: ({ tintColor, focused }) => (
-        <Icon
-          name={focused ? 'ios-beer' : 'ios-beer-outline'}
-          size={30}
-          type='ionicon'
-          color={tintColor}
-        />
-      ),
-    },
+const MainRoot = DrawerNavigator({
+  Home: {
+    path: '/home',
+    screen: Home
   },
-  IconsTab: {
-    screen: IconsTab,
-    path: '/',
-    navigationOptions: {
-      tabBarLabel: 'Icons',
-      tabBarIcon: ({ tintColor, focused }) => (
-        <Icon
-          name={focused ? 'emoticon-cool' : 'emoticon-dead'}
-          size={30}
-          type='material-community'
-          color={tintColor}
-        />
-      ),
-    },
+  AboutUs: {
+    path: '/aboutus',
+    screen: AboutUs,
   },
-}, {
-    tabBarPosition: 'bottom',
-    animationEnabled: false,
-    swipeEnabled: false,
-  });
+},
+  {
+    initialRouteName: 'Home',
+    contentOptions: {
+      activeTintColor: '#e91e63',
+    }
+  }
+);
 
 Expo.registerRootComponent(MainRoot);
