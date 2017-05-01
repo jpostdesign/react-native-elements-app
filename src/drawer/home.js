@@ -68,7 +68,8 @@ Home.navigationOptions = {
   drawerIcon: ({ tintColor }) => (
     <Icon
       name="home"
-      size={24}
+      size={30}
+      style={{width: 50, height: 50, alignItems: 'center', justifyContent: 'center'}}
       type='material-commnity'
       color={tintColor}
     />
