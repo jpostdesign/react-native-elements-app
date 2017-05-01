@@ -5,6 +5,7 @@ import { Icon } from 'react-native-elements';
 
 import ButtonsTab from '../tabs/buttons'
 import IconsTab from '../tabs/icons'
+import FontsTab from '../tabs/fonts'
 
 const Home = TabNavigator({
   ButtonsTab: {
@@ -32,6 +33,21 @@ const Home = TabNavigator({
           name={focused ? 'emoticon-cool' : 'emoticon-sad'}
           size={30}
           type='material-community'
+          color={tintColor}
+        />
+      ),
+    },
+  },
+  FontsTab: {
+    screen: FontsTab,
+    path: '/fonts',
+    navigationOptions: {
+      tabBarLabel: 'Fonts',
+      tabBarIcon: ({ tintColor, focused }) => (
+        <Icon
+          name={focused ? 'font' : 'font'}
+          size={30}
+          type='font-awesome'
           color={tintColor}
         />
       ),
