@@ -107,7 +107,7 @@ class Icons extends Component {
             containerStyle={{ marginTop: 15 }}>
             <View style={[styles.social, { marginTop: 15, marginBottom: 15, justifyContent: 'space-around' }]}>
               <Icon
-                onPress={() => console.log('hello')}
+                onPress={() => navigation.navigate('Icons_Detail')}
                 type='font-awesome'
                 color='#e14329'
                 name='hashtag' />

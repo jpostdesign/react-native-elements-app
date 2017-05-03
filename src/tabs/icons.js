@@ -29,7 +29,7 @@ const IconsTab = StackNavigator({
       title: 'Icons',
     }),
   },
-  Detail: {
+  Icons_Detail: {
     screen: IconsDetailTabView,
     path: 'icons_detail',
     navigationOptions: {
