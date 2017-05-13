@@ -5,7 +5,8 @@ import { DrawerNavigator, DrawerItems } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
 import Home from './src/drawer/home'
-import AboutUs from './src/drawer/about_us'
+import SwipeDecker from './src/drawer/swipe_decker'
+import Ratings from './src/drawer/ratings'
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
@@ -27,9 +28,13 @@ const MainRoot = DrawerNavigator({
     path: '/home',
     screen: Home
   },
-  AboutUs: {
-    path: '/aboutus',
-    screen: AboutUs,
+  SwipeDecker: {
+    path: '/swiper_decker',
+    screen: SwipeDecker,
+  },
+  Ratings: {
+    path: '/ratings',
+    screen: Ratings,
   },
 },
   {
@@ -37,14 +42,14 @@ const MainRoot = DrawerNavigator({
     contentOptions: {
       activeTintColor: '#548ff7',
       activeBackgroundColor: 'transparent',
-      inactiveTintColor: '#fff',
+      inactiveTintColor: '#ffffff',
       inactiveBackgroundColor: 'transparent',
       labelStyle: {
         fontSize: 15,
         marginLeft: 0,
       }
     },
-    drawerWidth: SCREEN_WIDTH * 0.6,
+    drawerWidth: SCREEN_WIDTH * 0.8,
     contentComponent: CustomDrawerContentComponent
   }
 );

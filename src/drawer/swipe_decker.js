@@ -3,29 +3,25 @@ import React from 'react';
 import { StackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import AboutUs from '../views/about_us'
+import SwipeDecker from '../views/swipe_decker'
 
-const AboutUsDrawerItem = StackNavigator({
-  AboutUs: {
-    screen: AboutUs,
+const SwipeDeckerDrawerItem = StackNavigator({
+  SwipeDecker: {
+    screen: SwipeDecker,
   }
-},
-  {
-    mode: 'modal',
-  }
-);
+});
 
-AboutUsDrawerItem.navigationOptions = {
-  drawerLabel: 'About Us',
+SwipeDeckerDrawerItem.navigationOptions = {
+  drawerLabel: 'Swipe Decker',
   drawerIcon: ({ tintColor }) => (
     <Icon
-      name="info"
+      name="whatshot"
       size={30}
       style={{width: 50, height: 50, alignItems: 'center', justifyContent: 'center'}}
-      type='material-commnity'
+      type='material'
       color={tintColor}
     />
   ),
 };
 
-export default AboutUsDrawerItem;
+export default SwipeDeckerDrawerItem;
