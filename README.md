@@ -12,13 +12,19 @@ Showcase app for [React Native Elements](https://github.com/react-native-trainin
 git clone https://github.com/react-native-training/react-native-elements-app
 ```
 
-2. Install dependencies
+2. change directory into newly cloned folder
+
+```
+cd react-native-elements-app
+```
+
+3. Install dependencies
 
 ```
 yarn
 ```
 
-3. Open app with [Expo Desktop Client](https://docs.expo.io/versions/v16.0.0/index.html)
+4. Open app with [Expo Desktop Client](https://docs.expo.io/versions/v16.0.0/index.html)
   - If you have never used Expo before, click [here](https://docs.expo.io/versions/v16.0.0/introduction/installation.html) to install it.
   - Then create a new account on the Expo Desktop client that you just installed. Follow [this](https://docs.expo.io/versions/v16.0.0/guides/up-and-running.html#create-an-account) if you need help.
   - Finally click `Project` -> `New Project` and open the folder that you cloned in Step 1 above. Then run the app on simulator or your device.
