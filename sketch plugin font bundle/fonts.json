@@ -1,0 +1,28 @@
+{
+  "fonts" : {
+    "Ionicons" : {
+      "path" : "Ionicons.json",
+      "container" : "<i class='icon ion-*****'></i>"
+    },
+    "FontAwesome" : {
+      "path" : "FontAwesome.json",
+      "container" : "<i class='fa fa-*****'></i>"
+    },
+    "Simple-Line-Icons" : {
+      "path" : "Simple-Line-Icons.json",
+      "container" : "<i class='icon-*****'></i>"
+    },
+    "Material Community" : {
+      "path" : "Material Community.json",
+      "container" : "<i class=\"material-community\"></i>"
+    },
+    "Material" : {
+      "path" : "Material.json",
+      "container" : "<i class='material-icons'>*****</i>"
+    },
+    "Anticon" : {
+      "path" : "Anticon.json",
+      "container" : "<Icon type='*****' />"
+    }
+  }
+}
