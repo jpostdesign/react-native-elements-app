@@ -8,6 +8,7 @@ This repo contains a font bundle with the most popular icon fonts.
 
 - FontAwesome
 - Material Design Icons
+- Material Community Icons
 - Ion Icons
 - Simple Line Icons (@bohn002)
 
